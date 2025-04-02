@@ -1,13 +1,14 @@
-# Linear regression
+# Linear Regression
 
-Los datos fueron obtenidos de un Challenge en el que se pretende predecir el tiempo de respuesta y el tiempo de llegada de los bomberos de acuerdo a distintas características del incidente como por ejemplo la distancia, el tipo de vehículo utilizado, la altura del incidente (en caso de ser un edificio).
+**Linear Regression**: Se utiliza para predecir el valor de una variable a partir del valor de otra. La variable que se desea predecir se denomina variable dependiente. La variable que se utiliza para predecir el valor de la otra variable se denomina variable independiente.
 
-Pueden consultar los detalles en el siguiente [link](https://paris-fire-brigade.github.io/data-challenge/challenge.html).
+También puede usar la regresión lineal para obtener mejores perspectivas al descubrir patrones. Por ejemplo, analizar los datos de ventas y compras puede ayudarle a descubrir patrones de compra específicos en días o momentos específicos. La información obtenida mediante el análisis de regresión puede ayudar a anticipar los momentos de alta demanda de los productos de una empresa.
 
-Los datos se se encuentran además en esta [carpeta compartida](https://drive.google.com/drive/folders/1ebXRdrRmijtlEv19ndsHpkTLaXgQo9Wt?usp=sharing).
+La regresión lineal debe de cumplir con los siguientes supuestos:
 
-La hipótesis sobre estos datos que nosotros planteamos es la siguiente: predecir el tiempo de respuesta a un incidente puede ser predicho utilizando una regresión.
-
-La variable que buscaremos predecir es el tiempo que tarda en llegar el equipo de rescate desde que sale el vehículo hasta la presentación en el lugar del siniestro (delta departure - presentation)
-
-Esta predicción puede verse afectada gravemente por la presencia de outliers en nuestros datos, por ejemplo aquellos causados por manifestaciones, atentados o en general accidentes que dificulten la movilidad.
+1. Las variables deben medirse a nivel continuo. Ejemplos de variables continuas son el tiempo, las ventas y el peso.
+2. Utilice un diagrama de dispersión para descubrir rápidamente si existe una relación lineal entre esas dos variables.
+3. Las observaciones deben ser independientes entre sí.
+4. Sus datos no deben tener valores atípicos significativos. 
+5. Comprobar la homocedasticidad: un concepto estadístico en el que las varianzas a lo largo de la línea de regresión lineal de mejor ajuste permanecen similares a lo largo de toda esa línea.
+6. Los residuos (errores) de la línea de regresión de mejor ajuste siguen una distribución normal.
